@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        <title>Kutok</title>
+    </head>
+    <body>
+        <header>
+            <div class="head_">
+                <div class="headd">
+                    <div class="search">
+                        <p class="head_p">Куток</p>
+                        <div class="inp_text">
+                        <input placeholder="Пошук..." type="text">
+                        </div>
+                    </div>
+                    <div class="log">
+                        <P class="log_in">Увійти</P>
+                        <p class="sign_up">Реєстрація</p>
+                    </div>
+            </div>
+            </div>
+        </header>
+        <main class="maind">
+        {% block body %}
+        {% endblock %}
+        </main>
+    </body>
+</html>
