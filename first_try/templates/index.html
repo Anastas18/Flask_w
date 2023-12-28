@@ -1,14 +1,31 @@
 {% extends 'base.html' %}
 
-
+{% block header %}
+<header>
+    <div class="head_">
+        <div class="headd">
+            <div class="search">
+                <p class="head_p">Куток</p>
+                <div class="inp_text">
+                <input placeholder="Пошук..." type="text">
+                </div>
+            </div>
+            <div class="log">
+                <P class="log_in"><a class="log_in_href" href="/1">Увійти</a></P>
+                <p class="sign_up"><a class="registration" href="/2">Реєстрація</a></p>
+            </div>
+    </div>
+    </div>
+</header>
+{% endblock %}
 {% block body %}
 <div class="frst">
     <div class="inf1">
-        <p class="kyt">Куток</p>0
+        <p class="kyt">Куток</p>
         <p class="inf2">Вільний майданчик, на <br> якому обговорюють ігри,<br>кіно, аніме, розробку,<br> технології та ще багато <br>чого.</p>
         <div class="one_m">
-            <p class="sign_up">Реєстрація</p>
-            <P class="log_in">Увійти</P>
+            <p class="sign_up"><a class="registration" href="/2">Реєстрація</a></p>
+            <P class="log_in"><a class="log_in_href" href="/1">Увійти</a></P>
         </div>
     </div>
     <div class="pok">

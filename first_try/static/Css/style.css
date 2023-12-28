@@ -54,6 +54,13 @@
     cursor: pointer;
     text-decoration: underline;
 }
+.log_in_href{    
+    color:#818181;
+}
+.log_in_href:hover{
+    color:#7B6FA8;
+}
+
 .sign_up{
     margin: 8px;
     font-weight: 100;
@@ -69,6 +76,13 @@
     cursor: pointer;
     text-decoration: underline;
 }
+.registration{
+    color:#7F5FF2;
+}
+.registration:hover{
+    color:#ffffff;
+}
+
 
 /**************/
 /*  The body  */
@@ -239,3 +253,4 @@ p#some_inf{
 .text2:hover{
     background-color: white;
 }
+
