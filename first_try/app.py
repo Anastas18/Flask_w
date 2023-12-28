@@ -5,13 +5,8 @@ app = Flask(__name__)
 app.secret_key = "adolf_"
 app.permanent_session_lifetime = timedelta(days=1)
 
-session = {
-    "user": "",
-    "password":"",
-    "login": False,
-}
 
-@app.route('/1', methods=["POST", "GET"])
+@app.route('/second', methods=["POST", "GET"])
 def second():
     if request.method == "POST":
         user = request.form["nm"]
